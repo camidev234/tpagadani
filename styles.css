@@ -42,7 +42,9 @@
         
     }
     .h2 .title_instrucciones{
-        color: rgb(8, 8, 57);
+        color: #051525;
+        font-family: Montserrat;
+
 
     }
     .container .container_instrucciones{
@@ -53,10 +55,11 @@
 
     }
     .container .container_instrucciones .instrucciones_title{
-        color: rgb(8, 8, 57);
+        color: #051525;
         display: flex;
-        justify-content: center;
         align-items: center;
+        padding-left: 15px;
+        font-family: "Montserrat";
         
     }
     .container .container_instrucciones .instrucciones{
@@ -65,6 +68,7 @@
         justify-content: center;
         align-items: center;
         padding: 15px 15px 15px 15px;
+        font-family: "Montserrat";
     }
 
 
@@ -80,6 +84,5 @@
     .container .kahoot iframe{
         width: 90%;
         height: 98%;
-        border-radius: 20px;
     }
 }
