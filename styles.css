@@ -8,7 +8,7 @@
     .container{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 20vh 20vh 60vh;
+        grid-template-rows: auto auto 400px;
         grid-template-areas:"video"
                             "instrucciones"
                             "kahoot";
@@ -42,6 +42,7 @@
     .container .container_instrucciones{
         grid-area: instrucciones;
         /* padding-top: 15px; */
+        padding: 15px;
 
     }
     .container .container_instrucciones .instrucciones_title{
