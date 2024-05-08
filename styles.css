@@ -41,7 +41,7 @@
     }
     .container .container_instrucciones{
         grid-area: instrucciones;
-        padding-top: 15px;
+        /* padding-top: 15px; */
 
     }
     .container .container_instrucciones .instrucciones_title{
