@@ -8,7 +8,7 @@
     .container{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto 400px;
+        grid-template-rows: auto auto auto;
         grid-template-areas:"video"
                             "instrucciones"
                             "kahoot";
@@ -35,7 +35,7 @@
         border-radius: 25px;
         
     }
-    .h2 title_instrucciones{
+    .h2 .title_instrucciones{
         color: rgb(8, 8, 57);
 
     }
@@ -43,6 +43,7 @@
         grid-area: instrucciones;
         /* padding-top: 15px; */
         padding: 15px;
+        line-height: 1.5;
 
     }
     .container .container_instrucciones .instrucciones_title{
@@ -66,7 +67,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 15px;
+        /* padding-top: 15px; */
+        min-height: 725px;
+        max-height: 450px;
     }
     .container .kahoot iframe{
         width: 90%;
